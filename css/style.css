@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+    margin: 0 auto;
+    font-family: 'Noto Sans Japanese','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','YuGothic','Yu Gothic','メイリオ', 'Meiryo','ＭＳ Ｐゴシック','MS PGothic';
+}
+
+body p{
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+body a{
+text-decoration: none;
+}
+
+/*header*/
+.header-main{
+    text-align: center;
+    background: url("../img/header-back-min.png") center center;
+    background-size: cover;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.header-main h3{
+    margin: 0 auto;
+    padding: 200px 0 0 0;
+    font-size: 55px;
+}
+
+/*work*/
+
+.work{
+    width: 950px;
+    margin:0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.work h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex p{
+    color: #2e2e2e;
+}
+
+.flex-col{
+    margin: 0 20px 30px 0;
+}
+
+.flex-col img{
+    width: 305px;
+    height: 190px;
+}
+
+.flex-right img{
+    width: 305px;
+    height: 190px;
+}
+
+/*about*/
+.about{
+    text-align: center;
+    background-color: #b3ecff; 
+    color: #0070ff;
+}
+
+.about-containar{
+    width: 950px;
+    margin:0 auto; 
+    padding: 30px 0 30px 0;
+}
+
+.about h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about h4{
+    margin: 20px 0 25px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.about-img{
+    margin: 0 250px;
+}
+
+.about-img img{
+    margin: 0 20px;
+}
+
+.adobe-img img{
+    margin: 20px 35px 10px;
+}
+
+/*ヘッダー*/
+.footer{
+    text-align: center;
+    background-color: #fffacd; 
+    color: #ff9031;
+}
+
+.footer-containar{
+    width: 950px;
+    margin:0 auto; 
+    padding: 30px 0 0 0;
+}
+
+.footer h3{
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer p{
+    margin: 20px 0 20px 0;
+}
+
+.colorful{
+    padding: 35px 0;
+}
