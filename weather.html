@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <title>colorful.jp</title>
     <link rel="stylesheet" href="css/port.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="slick/slick.js"></script>
 </head>
 
+<script>
+    $(function(){
+        $('.slide').slick();
+    });
+</script>
+    
 <body>
     
     <!--作品紹介-->
@@ -19,9 +29,11 @@
         </p>
         <p>Monaca・Photoshop・HTML/CSSコーディング・Java</p>
         
-        <img src="img/weather/today1.png" alt="画面１">
-        <img src="img/weather/tomorrow1.png" alt="画面２">
-        
+        <ul class="slide">
+            <img src="img/weather/today2.png" alt="画面１">
+            <img src="img/weather/tomorrow2.png" alt="画面２">
+        </ul>
+            
         <div class="button">
             <a href="index.html">
                 <p>作品ページに戻る</p>

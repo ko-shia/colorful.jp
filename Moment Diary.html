@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <title>colorful.jp</title>
     <link rel="stylesheet" href="css/port.css">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="css/slick.css">
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" media="screen" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="slick/slick.js"></script>
 </head>
 
+<script>
+    $(function(){
+        $('.slide').slick();
+    });
+</script>
+    
 <body>
     
     <!--作品紹介-->
@@ -23,10 +33,13 @@
             </a>
         </div>
         
-        <img src="img/diary/diary1-min.png" alt="画面１">
-        <img src="img/diary/diary2-min.png" alt="画面２">
-        <img src="img/diary/diary3-min.png" alt="画面３">
-        <img src="img/diary/diary4-min.png" alt="画面４">
+        <ul class="slide">
+            <li><img src="img/diary/diary1-min.png" alt="画面１"></li>
+            <li><img src="img/diary/diary2-min.png" alt="画面２"></li>
+            <li><img src="img/diary/diary3-min.png" alt="画面３"></li>
+            <li><img src="img/diary/diary4-min.png" alt="画面４"></li>
+        </ul>
+        
         
         <div class="button">
             <a href="index.html">
