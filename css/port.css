@@ -31,9 +31,10 @@ text-decoration: none;
 }
 
 .overview img{
-    width: 950px;
+    width: 880px;
     height: auto;
     margin: 20px 0;
+    text-align: center;
 }
 
 .button{

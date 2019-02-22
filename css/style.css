@@ -19,7 +19,7 @@ text-decoration: none;
 /*header*/
 .header-main{
     text-align: center;
-    background: url("../img/header-back-min.png") center center;
+    background: url("../img/header-back.png") center center;
     background-size: cover;
     height: 480px;
     margin: 0 auto;
